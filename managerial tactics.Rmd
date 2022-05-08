@@ -1,0 +1,40 @@
+---
+title: "Untitled"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## GitHub Documents
+
+This is an R Markdown format used for publishing markdown documents to GitHub. When you click the **Knit** button all R code chunks are run and a markdown file (.md) suitable for publishing to GitHub is generated.
+
+## Including Code
+
+You can include R code in the document as follows:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+From the performance data of 1000 employees, the following are observed:
+•	Using tactic A, 24% of employees had improvement in their performance while 76% had degradation.
+•	Using tactic B, 23.5% of employees had improvement in their performance while 76.5% had degradation.
+•	Tactic A resulted in an average of 67% improvement in employees’ performances, whereas tactic B resulted in an average of 151% degradation in employees’ performances.
+From the above observations, it can be seen that the expert may not be correct in their opinion as their opinion is that tactic A resulted in 9% improved performance and 91% degradation, whereas tactic B resulted in 91% degraded performance and 91% degradation. According to me, the data does not suggest that. If at all, tactic A fares better in that on an average, it resulted in 67% better performance of employees. 
+Collaborators: Abhijeet, Ananya
+
+

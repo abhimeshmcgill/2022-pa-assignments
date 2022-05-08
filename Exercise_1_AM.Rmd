@@ -1,0 +1,47 @@
+---
+title: "Untitled"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## GitHub Documents
+
+This is an R Markdown format used for publishing markdown documents to GitHub. When you click the **Knit** button all R code chunks are run and a markdown file (.md) suitable for publishing to GitHub is generated.
+
+## Including Code
+
+You can include R code in the document as follows:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+Encouraging employees to contribute $2k or $8k to their retirement:
+In the above study, where POPS studied how employees responded to reminders for contribution to their retirement saving plan, following is the possible design of the study:
+Quasi Experiment
+NR	O1	X	O2
+NR	O1		O2
+
+NR – It is possibly a non-random assignment as the reminders may have been sent to a particular band of employees and not to everyone in the company.
+O1 – Employees contributing 2k to their retirement saving plan
+X – Aggressive reminder, i.e., reminder to contribute $8000 to retirement saving plan
+O2 – Employees contribution after the aggressive reminders (more than 2k)
+
+Potential threats:
+1.	The groups of people selected for the studies could be limited to employees that can afford to contribute 2k or more towards their retirement plans and the contribution amount could also depend on the percentage of their total compensation i.e for the employees higher up in the organization, 8k could amount for an insignificant portion of their total income and thus the aggressive reminder of 8k will cause any change. Therefore, to correct for this, we could look grp the employees within a few salary brackets and could customize the reminders targeted for those salary groups. The percentage of the contribution could be same across all groups, but the amount might vary.
+2.	The employee’s contribution could also be dependent on the age. Younger employees might contribute less towards their retirement plans whereas the older employees might prefer more contribution towards their retirement plans. The aggressive reminders might affect differently. Therefore the grouping should ensure that we have a good mix of participants within each groups to correct for any misinterpretations a higher representation of any particular age group might cause.
+
